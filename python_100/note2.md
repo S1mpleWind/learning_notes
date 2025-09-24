@@ -16,9 +16,10 @@ use `try` `except` `finally` to catch and handle exceptions
 use `raise` to throw a exception
 
 python contains many types of exceptions , we can also define our own
+
 ```python
 class InputError(ValueError):
-    """customize a error , inherit from valuerror"""
+    """customize a error , inherit from valueerror"""
     pass
 ```
 
